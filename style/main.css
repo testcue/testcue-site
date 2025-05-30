@@ -481,18 +481,23 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
     margin-top: 2rem;
 }
 
 .contact-method i {
     font-size: 2rem;
     color: var(--primary-orange);
-    margin-right: 1rem;
+}
+
+.contact-method div {
+    text-align: left;
 }
 
 .contact-method h3 {
     color: white;
     margin-bottom: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .contact-method a {
@@ -500,7 +505,7 @@ footer {
     text-decoration: none;
     opacity: 0.9;
     transition: opacity 0.2s;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .contact-method a:hover {
